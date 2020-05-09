@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="SHPPNGcss.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container contain mt-lg-5">
+      <header class="row py-3 pt-md-4 pb-md-0 mt-md-4 bg-white">
+        <div class="col-6 col-md-3 col-lg-4 font-weight-bold logo text-center order-1 order-md-1 mb-3">SHPPNG</div>
+        <div class="col-md-6 col-lg-5 order-3 order-md-2">
+          <ul class="navbar-nav d-flex flex-row justify-content-center">
+            <li class="nav-item p11 pr-1 pr-md-3">Shopping Bag</li>
+            <li class="nav-item p12 pr-1 pr-md-3">Checkout</li>
+            <li class="nav-item p13">Confirmation</li>
+          </ul>
+        </div>
+        <div class=" col-6 col-md-3 col-lg-3 text-center order-2 order-md-3">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </header>
+      <section class="row bg-white ">
+        <div class="col-md-5 offset-md-1 bg py-3 mb-4">
+          <h5 class="text-center">Personal information</h5>
+          <form>
+            <div class="form-row justify-content-center">
+              <div class="col-md-5">
+                <label class="lbl">First Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-md-5 offset-md-1">
+                <label class="lbl">Last Name</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+
+            <div class="form-row justify-content-center">
+              <div class="col-md-11">
+                <label class="lbl">Email Address </label>
+                <input type="email" class="form-control" />
+              </div>
+            </div>
+
+            <div class="form-row justify-content-center">
+              <div class="col-md-11">
+                <label class="lbl">Street</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+
+            <div class="form-row justify-content-center">
+              <div class="col-md-5">
+                <label class="lbl">City</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-md-5 offset-md-1">
+                <label class="lbl">Country</label>
+                <select class="custom-select">
+                  <option selected>Nigeria</option>
+                  <option value="1">France</option>
+                  <option value="2">United States</option>
+                  <option value="3">Spain</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row justify-content-center">
+              <div class="col-md-11">
+                <label class="lbl">Phone Number</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="default-size">+234</span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Default"
+                    aria-describedby="default-size"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-5 ml-md-3">
+          <div class="bg pt-4">
+          <h5 class="text-center">Delivery</h5>
+          <span class="lbl ml-5">Delivery Time</span>
+          <div class="row justify-content-center">
+            <div class="col-5 col-md-5">
+              <p class="amt1">
+                <span class="digit1">0<sup class="sup">$</sup></span>
+                <br />
+                <small class="interval">3-4 weeks</small>
+              </p>
+            </div>
+            <div class="col-5 col-md-5">
+              <div></div>
+              <p class="amt2">
+                <span class="digit2">5<sup class="sup">$</sup></span>
+                <br />
+                <span class="interval">2-5 days</span>
+              </p>
+            </div>
+          </div>
+          <div class="deli_info ml-5 pb-1">
+            <span>
+              Estimated delivery date <span class="august">August 4th</span>
+            </span>
+            <p>Every package has a backing number</p>
+          </div>
+          </div>
+          <div class="news py-4">
+
+              <input
+                type="checkbox"
+                checked="checked"
+              />
+              Subscribe to our news letter
+            <br>
+            <input type="checkbox"/> Create an account
+        </div>
+        <button type="button" class="col-12 btn1 mb-3 mb-md-0">Confirm my order</button>
+      </div>
+      </section>
+      
+  </body>
+</html>
