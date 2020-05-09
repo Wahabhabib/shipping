@@ -1,0 +1,80 @@
+.contain{
+    -webkit-box-shadow: 0px 21px 13px -6px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 21px 13px -6px rgba(0,0,0,0.53);
+    box-shadow: 0px 21px 13px -6px rgba(0,0,0,0.53);
+}
+body{
+    background-color: rgb(137, 85, 196);
+    font-family: "font-family: 'Montserrat', sans-serif";
+}
+.logo{
+    color: rgb(130, 101, 218);
+    font-size: 20px;
+}
+.progress{
+    font-weight: bold;
+}
+.navbar-nav{
+    list-style: url('images/gt3.png') !important;
+    list-style-position: inside !important;
+}
+.p11{
+    list-style: none;
+}
+.p12{
+    color: rgb(137, 85, 196);
+}
+.p11, .p13{
+    color: #e2e3e7;
+}
+.cart{
+    color: black;
+}
+.lbl{
+    font-size: 10px;
+    color: #bdbfc2;
+}
+.bg{
+    background-color: #f1f1f1;
+}
+sup{
+    font-size: 20px;
+}
+.interval{
+    color: #aaacb5;
+}
+.amt1{
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+}
+.digit1{
+    font-size: 30px;
+    color: rgb(130, 101, 218);
+}
+.amt2{
+    background-color: rgb(130, 101, 218);
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.digit2{
+    font-size: 30px;
+}
+.deli_info{
+    font-size: 11px;
+    color: #aaacb5;
+}
+.august{
+    color: black;
+}
+.news{
+    font-size: 13px;
+    color: #aaacb5;
+}
+.btn1{
+    color: white;
+    padding: 19px 0px;
+    background-color: rgb(130, 101, 218);
+    cursor: pointer;
+}
